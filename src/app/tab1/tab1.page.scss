@@ -1,0 +1,175 @@
+ion-content
+{
+    .presentation
+    {
+    
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 4%;
+
+        &__img 
+        {
+            width: 50%;
+            border-radius: 10px;
+            height: 400px;
+        }
+
+        &__caption
+        {
+            margin: 50px 15px;
+            align-items: center;
+
+            & h1 
+            {
+                
+                font-weight: bold;
+            }
+
+            & button
+            {
+                display: block;
+                margin: 30px 0 0 0;
+                border-radius: 10px;
+                padding: 15px;
+                background-color: palegreen;
+                font-weight: bold;
+                align-items: center;
+        }
+
+
+
+
+        }
+
+       
+    }
+
+
+    .articles
+    {
+        margin: 40px 4%;
+        &__title
+        {
+            
+            display: flex;
+            align-items: center;
+
+          
+
+            & span
+            {
+                //margin-left: 10px;
+                font-size: 22px;
+            }
+
+            & p
+            {
+                font-size: 12px;
+                border-bottom: 1px solid white;
+            }
+        }
+
+        &__container
+        {
+            display: flex;
+            justify-content: space-around;
+        
+ 
+
+        .card {
+            margin-top: 10px;
+            border-radius: 10px 10px 10px 10px;
+            cursor: pointer;
+            background-color: rgb(27 37 45 / 1);
+            position: relative;
+            margin-bottom: 25px;
+            width: 30%;
+
+    
+            &__title
+            {
+                background-color: palegreen;
+                border-radius: 10px 10px 0 0;
+                text-align: center;
+                padding: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 15px;
+                height: 43px;
+    
+                 & i
+                {
+                    margin-right: 10px;
+                }
+
+                & .red
+                {
+                    background-color: red;
+                }
+
+
+            }
+
+         &__bottom-left
+         {
+            display: flex;
+                position: absolute;
+                bottom: 30px;
+                left: 0px;
+                background-color: white;
+                padding: 10px;
+                color: black;
+                font-weight: bold;
+                font-size: 14px;
+            & span
+            {
+                margin-left: 5px;
+            }
+
+              
+         }
+
+         &__img2
+         {
+             border-radius: 10px;
+             object-fit: cover;
+             width: 100%;
+             height: 365px;
+         }
+
+      
+            &__img {
+              width: 100%;
+              object-fit: cover;
+              //height: 150px;
+            }
+    
+      
+            &__container {
+              padding: 5px;
+              color: white;
+              margin: 10px 15px;
+              background-color: rgb(27 37 45 / 1);
+
+              & h4
+              {
+                margin-top: 0px;
+                 margin-bottom: 0;
+                  padding: 0;
+              }
+    
+    
+              & .date
+              {
+                font-size: 12px;
+                color: #ddd;
+              }
+    
+            }
+        }
+    }
+}
+
+    
+}

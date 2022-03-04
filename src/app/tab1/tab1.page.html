@@ -1,4 +1,5 @@
 <ion-header [translucent]="true">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <ion-toolbar>
     <ion-title>
       Tab 1
@@ -9,9 +10,75 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title size="large">Articles</ion-title>
     </ion-toolbar>
   </ion-header>
+  
+   <section class="presentation">
+     <img class="presentation__img" src="https://file-examples-com.github.io/uploads/2017/10/file_example_JPG_1MB.jpg">
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+    <div class="presentation__caption">
+      <h1>Dernières actualités</h1>
+      <span><i>Vidéo de présentation</i></span>
+      <p class="date">Vendredi 04 Mars 2022</p>
+      <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+      Facere obcaecati consectetur provident voluptates, consequuntur 
+      optio! Maxime eius amet cum. Dolorem vero provident ad, molestias reiciendis doloribus impedit rem velit aut!
+      </p>
+
+      <button>En savoir plus <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+  </section>
+  
+ 
+  <section class="articles">
+
+    <div class="articles__title">
+      <span class="articles__title"><b>INFOS</b> &nbsp;</span>
+        <p> > TOUT VOIR</p>
+    </div>
+
+  <div class="articles__container">
+
+  <article class="card">
+    <div class="card__title">
+      <i class="fa-solid fa-newspaper"></i>
+      <h3>Actualités</h3>
+    </div>
+    <img alt="" class="card__img"
+         src="https://www.anews-workwell.com/wp-content/uploads/2022/02/729-x-462-22-405x228.png"/>
+    <div class="card__container">
+        <h4>Etude: quelle valeur pour les bâtiments ?</h4>
+        <p class="date">03 Mars 2022</p>
+    </div>
+</article>
+
+<article class="card">
+  <div class="card__title red">
+    <i class="fa-solid fa-newspaper"></i>
+    <h3>Autre article</h3>
+  </div>
+  <img alt="" class="card__img"
+       src="https://www.anews-workwell.com/wp-content/uploads/2022/02/729-x-462-22-405x228.png"/>
+  <div class="card__container">
+      <h4>Titre</h4>
+      <p class="date">03 Mars 2022</p>
+  </div>
+</article>
+
+
+  <article class="card">
+      <img alt="" class="card__img2" src="https://c8.alamy.com/compfr/fa2t1a/sur-le-travail-de-bureau-vertical-concept-fa2t1a.jpg"/>
+      <div class="card__bottom-left">
+        <i class="fa-solid fa-newspaper"></i>
+        <span>Nouveau</span>
+      </div>
+  </article>
+
+</div>
+
+</section>
+
 </ion-content>
